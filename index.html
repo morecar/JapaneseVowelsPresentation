@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Japanese Vowel Trapezoid</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Japanese Vowel Trapezoid">
+  <meta name="author" content="Manuel Moreno-Carral">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Japanese Vowel Trapezoid</h1>
+    <h2>Cooler vowel plots with R</h2>
+    <p>Manuel Moreno-Carral<br/>Comp. Linguist</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Final project</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>This is the presentation for the final project in the &quot;Developing data products&quot; Coursera course.</li>
+<li>This course is part of the &quot;Data Science&quot; specialization.</li>
+<li>The other part of the project is the Shiny app.</li>
+</ul>
+
+<p>The app might be found at the following link <a href="https://morecar.shinyapps.io/JapaneseVowels/">Japanese Vowels</a>.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Vowels</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Vowels are sounds made by our throat (voice box) and tongue, without any othr artiuclator. They can be described with two frequence parameters: </p>
+
+<ul>
+<li>F1: or first formant, it describes how open the mouth of the speaker is. The more open, the higher the frequency.</li>
+<li>F2: or second formant, it descrives how far back the tongue is. The further back, the lower the frequency. </li>
+</ul>
+
+<p>There are other formants, and othr ways to describe vowels, but this is a widely used system. </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Japanese</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Japanese is a language with a five-vowel system, or pentavocalism. This system very common among the world&#39;s languages; other notorious examples are Spanish and Greek. </p>
+
+<ul>
+<li>a is the open-most vowel, the only one with the maximum aperture. </li>
+<li>e and o are mid, sitting at half the aperture. </li>
+<li>i and u are closed vowels, with maximum closeness.</li>
+</ul>
+
+<p>Unlike other 5-vowel languages, Japanese u is pronounced [ɯ], a little bit fronted and less closed. This will be visible in our graph. </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Usage</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The app has 5 checkboxes which display the 5 different phonemes of the Japanese Language. To do so, the app queries a <a href="http://www2.nict.go.jp/univ-com/mcc/people/parham/formant/formant.html">dataset on Japanese phonology</a>, which has been loaded and structured so that every vowel had a third row containing its unique IPA identifier. </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Final project'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Vowels'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Japanese'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Usage'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+   
+  </html>
